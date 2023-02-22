@@ -14,9 +14,9 @@ jobs:
     steps:
       # To use this repository's private action, you must check out the repository
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3
       - name: actions-template-sync
-        uses: AndreasAugustin/actions-template-sync@v0.7.3
+        uses: AndreasAugustin/actions-template-sync@14e180b2d69dba65556a893156dd2b23f4930294 # v0.7.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_repo_path: onedr0p/flux-cluster-template
